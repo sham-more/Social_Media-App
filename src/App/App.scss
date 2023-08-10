@@ -1,0 +1,34 @@
+@import "../style.scss";
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.main{
+    display: flex;
+   
+}
+
+ .main_content {
+     @include themify($themes) {
+         background-color: themed("bgSoft");
+         color: themed("textColorSoft");
+     }
+
+
+
+ }
+.main_content{
+    flex: 6;
+    padding: 20px 70px;
+    
+    
+  
+}
+ 
+
+//for dark/lite mode
+
+
+
+ 
